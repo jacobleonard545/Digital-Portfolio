@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- MAIN CSS FILES -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="styles/style.css" rel="stylesheet">
+
+    <!--  ICONS -->
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--  FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="javascript/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</head>
+
+<body>
+    <div id="navbar">
+        <nav class="navbar fixed-top navbar-expand-lg ml-auto">
+            <button data-aos="fade-left" data-aos-duration="900" class="navbar-toggler ml-auto primaryColor"
+                type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span id="navbar-toggler-icon">
+                    <i class="fa fa-navicon"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="ml-auto" data-aos="fade-left" data-aos-duration="900">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link primaryColor" href="#main-content" id="left-item">Home</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link primaryColor" href="#ToC">Table of Contents</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link primaryColor" href="#about">About</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link primaryColor" href="#documents">Documents</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link primaryColor" href="#projects">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <div id="particles-js">
+        <div id="main-content">
+            <!-- Landing Page -->
+            <div data-aos="fade-down" data-aos-duration="900" id="landing-page" class="center">
+                <h1 class="primaryColor">
+                    Hi, Jacob Here! <br>
+                    I enjoy topics pertaining to<br>
+                    <span class="primaryColor" id="my-name"></span>
+    
+                </h1>
+                <br>
+                <h5 class="primaryColor">University of Tennessee | Computer Science Student | English 360</h5>
+            </div>
+
+            <!-- Table of Contents Page-->
+            <hr>
+            <div id="ToC">
+                <h1 class="h-center primaryColor"><span class="underline primaryColor">Table of Contents</span></h1>
+
+                <div data-aos="fade-down" data-aos-duration="800" data-aos-offset="300" id="ToC-content">
+                    <br>
+                    <div data-aos="fade-down" data-aos-duration="800" data-aos-offset="300">
+                        <div class="about-body">
+                            <h3 class="primaryColor">Here's an overview of the website.</h3>
+                            <ul>
+                                <li class="secondaryColor">Home</li>
+                                <li class="secondaryColor">About</li>
+                                <li class="secondaryColor">Documents</li>
+                                <li class="secondaryColor">Projects</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- About Page -->
+            <hr>
+            <div id="about">
+                <h1 class="h-center primaryColor"><span class="underline primaryColor">About </span></h1>
+
+                <div data-aos="fade-down" data-aos-duration="800" data-aos-offset="300" id="about-content">
+                    <br>
+                    <div data-aos="fade-down" data-aos-duration="800" data-aos-offset="300">
+                        <h3 class="primaryColor">Welcome to My Portfolio!</h3>
+                        <br>
+                        <div class="about-body">
+                            <h5 class="secondaryColor">
+                                My name is Jacob Leonard and I'm currently pursuing my Bachelor's of Science in <br>
+                                Computer Science at the University of Tennessee. I aim to pursue a career in Cyber <br> 
+                                Risk or Risk Management as I'm passionate about assessing risk and vulnerabilities of <br>
+                                all kinds. 
+                            </h5>
+                            <br>
+                            <h5 class="secondaryColor">
+                                I’m constantly learning and challenging myself to take on new endeavors. As a collaborator, <br>    
+                                I always found myself willing to ask for input and provide guidance when needed. I’m a team <br>
+                                player that likes to have a good time but understands when tasks need to be done.
+                            </h5>
+                            <br>
+                            <h5 class="secondaryColor">
+                                In my freetime, I enjoy working on personal projects in software development, <br>
+                                cybersecurity, and all things in between. This website you're viewing is actually <br> 
+                                a project of mine coded using popular frameworks and packages. When I'm not coding <br>
+                                or working on school assignments, you can probably find me engaging with the <br>
+                                community through school-affiliated organizations such as HackUTK or VolHacks.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Documents-->
+            <hr>
+            <div data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-offset="400" id="documents">
+                <h1 class="h-center primaryColor"><span class="underline primaryColor">Documents</span></h1>
+                <br>
+            </div>
+
+            <footer>
+                <div class="container-fluid">
+                    <div class="row primaryColor">
+                        <div class="col-md">
+                            <img class="img-fluid" src="./img/STEAM.png" alt="">
+                        </div> 
+                        <div class="col-md">
+                            <img class="img-fluid" src="./img/STEAM.png" alt="">
+                        </div> 
+                    </div>
+                    <div class="row primaryColor">
+                        <!-- <div data-aos="fade-down" data-aos-easing="ease-in-sine" data-aos-offset="400" id="documents-img"> -->
+                            <div id ="doc-img" class="col-md">
+                                <a href="./Cover Letter Jacob Leonard - SMU.pdf" target="_blank"><i class="fas fa-file-pdf primaryColor"></i></a>
+                                <p class="primaryColor">Cover Letter</p>
+                            </div>
+                            <div class="col-md">
+                                <a href="./Jacob Leonard Resume.pdf" target="_blank"><i class="fas fa-file-pdf primaryColor"></i></a>
+                                <p class="primaryColor">Resume</p>
+                            </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </footer>
+
+            <!-- Projects Page -->
+            <hr>
+            <div id="projects">
+                <h1 class="h-center primaryColor"><span class="underline primaryColor">Projects</span></h1>
+                <br>
+                <div id="project-list" class="row h-center">
+                    <div data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-offset="300"
+                        class="card primaryColor">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-5 col-md-0 img-col">
+                                    <img class="img-fluid" src="./img/STEAM.png" alt="">
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="card-text">
+                                        <h4 class="primaryColor">STEAM: A Club for STEM and Arts Students</h4>
+                                        <p class="secondaryColor">
+                                            Students in STEM and Arts lack in collaborating with one another as their projects in college revolve around
+                                            working with team members of similar backgrounds. This is a problem as students enter the work force
+                                            and aren't prepared to work with others with a different mindset. I discuss the divide between the two with 
+                                            students both in the STEM and Arts fields as well as possible solutions in a 15-minute podcast.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-offset="300"
+                        class="card primaryColor">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-5 col-md-0 img-col">
+                                    <img class="img-fluid" src="./img/ViolenceInFilm.png" alt="">
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="card-text">
+                                        <h4 class="primaryColor">Violence in Film</h4>
+                                        <p class="secondaryColor">
+                                            Violence in movies and television have an underlying effect on audiences that we may not realize as some 
+                                            films have had a direct influence behinds crimes as terrible as murder. I worked with a team to address 
+                                            the effects of crimes that were inspired by some films as well as studies that give evidence of increased aggression
+                                            behind these types of media. We created a website to spread awareness and address how we can take action to 
+                                            prevent such heinous acts from happening again.
+                                        </p>
+                                    </div>
+                                    <a href="https://violenceinfilm.weebly.com" 
+                                       class="btn btn-default btn-source primaryButtonColor"
+                                       target="_blank">
+                                       View Website
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+
+            <script src="javascript/main.js"></script>
+            <script src="javascript/particles/particles.js"></script>
+
+</body>
+
+</html>

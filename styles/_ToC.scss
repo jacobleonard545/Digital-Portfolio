@@ -1,0 +1,14 @@
+@import './_variables';
+
+#ToC{
+    padding-top: 5%;
+    p{
+        padding-right: 20%;
+    }
+    #ToC-content{
+        padding-top: 2%;
+        li{
+            font-size: 22px;
+        }
+    }
+}
