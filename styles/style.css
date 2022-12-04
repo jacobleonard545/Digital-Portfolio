@@ -118,16 +118,23 @@
 
 #about {
   padding-top: 5%;
+  text-align: center;
 }
 
 #about p {
   padding-right: 20%;
 }
 
-#about #about-content {
+.about-img > img{
+  height: 300px;
+  width: 225px;
+  /* border-radius: 50%; */
+}
+ 
+/* #about #about-content {
   padding-top: 2%;
   padding-left: 15%;
-}
+} */
 
 #about #about-content li {
   font-size: 22px;
@@ -448,11 +455,11 @@
 }
 
 footer {
-  padding: 40px 95px 20px 95px;
+  padding: 0px 95px 20px 95px;
   background-color: #485564;
   text-align: center;
   position: relative;
-  margin-top: 10%;
+  margin-top: 5%;
   clear: both;
   width: 100%;
 }
