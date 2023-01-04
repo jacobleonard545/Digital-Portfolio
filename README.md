@@ -1,10 +1,7 @@
-# EDIT
+# Digital Portfolio
 
-Website Portfolio used to display more about me and my achievements/skills!
-
----
-
-*Built using HTML, CSS, Bootstrap, SASS, JavaScript, and JQuery.*
+A website portfolio made for an English class.
 
 ---
 
+<img src="img/HomePage1.png" width=1000>
